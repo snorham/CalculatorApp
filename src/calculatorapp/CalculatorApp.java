@@ -15,7 +15,14 @@ public class CalculatorApp {
         return (sub1 - sub2);
     }
 
-    
+    double multiplication(double multiply1, double multiply2){
+        return (multiply1 * multiply2);
+    }
+
+    double division(double numerator, double denominator){
+        return (numerator / denominator);
+    }
+
 
     public static void main(String[] args) {
 
