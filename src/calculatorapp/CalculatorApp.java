@@ -1,5 +1,7 @@
 package calculatorapp;
-import java.lang.math;
+import java.lang.Math;
+import java.util.Scanner;
+
 /**
  * Created by Borham on 9/14/14.
  */
@@ -32,12 +34,12 @@ public class CalculatorApp {
     }
 
 
-    
+
     public static void main(String[] args) {
 
         int choice;
         boolean valid;
-
+        Scanner scanIt = new Scanner(System.in);
 
 
         System.out.println("==SUPER CALCULATOR==");
@@ -50,7 +52,29 @@ public class CalculatorApp {
         System.out.println();
         System.out.print("Please enter a number (1-5) to make your choice: ");
 
+        do {
+            if (scanIt.hasNextInt()) {
+                choice = scanIt.nextInt();
+                if ((choice > 0) && (choice < 6)) {
+                    valid = true;
+                }
 
+                else {
+                    System.out.println("[Error: Incorrect Entry]");
+                    System.out.print("Please enter a number (1-5) to make your choice: ");
+                    valid = false;
+                }
+            }
+
+            else {
+                System.out.println("[Error: Incorrect Entry]");
+                System.out.print("Please enter a number (1-5) to make your choice: ");
+                valid = false;
+            }
+
+            scanIt.nextLine();
+
+        }while(valid);
     }
 
 
