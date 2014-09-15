@@ -26,17 +26,19 @@
       <file leaf-file-name="CalculatorApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/calculatorapp/CalculatorApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="630">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.37006578" vertical-offset="285" max-vertical-offset="990">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +59,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="18" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="705" />
@@ -87,7 +90,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,6 +129,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,19 +176,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -211,6 +201,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -283,7 +286,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="6" />
+    <frame x="18" y="22" width="1280" height="705" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -332,17 +335,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/calculatorapp/CalculatorApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="630">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
           <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculatorapp/CalculatorApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37006578" vertical-offset="285" max-vertical-offset="990">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
