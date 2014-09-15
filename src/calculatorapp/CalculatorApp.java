@@ -10,6 +10,20 @@ public class CalculatorApp {
     double num2;
 
     //creating a lot of useless methods here... just trying to get in the habit of making methods for things
+double doubleChecker(){
+    Scanner doubleScan = new Scanner(System.in);
+    do {
+        if (doubleScan.hasNextDouble()) {
+            return (doubleScan.nextDouble());
+        }
+        else {
+            doubleScan.nextLine();
+            System.out.println();
+            System.out.println("[Error: Incorrect Entry]");
+            System.out.print("Please enter a number value: ");
+        }
+    }while(true);
+}
 
     double addition(double add1, double add2){
         return (add1 + add2);
@@ -33,12 +47,10 @@ public class CalculatorApp {
         return (Math.sqrt(number));
     }
 
-    int calcMenu(){
-
+    public static int calcMenu(){
         int choice;
         boolean valid;
         Scanner scanIt = new Scanner(System.in);
-
 
         System.out.println("==SUPER CALCULATOR==");
         System.out.println();
@@ -77,6 +89,15 @@ public class CalculatorApp {
     }
 
     public static void main(String[] args) {
-        
+        switch (calcMenu()){
+            case 1:  System.out.println("Please enter a value to add:");
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            default:
+
+        }
+
     }
 }
