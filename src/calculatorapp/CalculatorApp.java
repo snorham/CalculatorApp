@@ -33,9 +33,7 @@ public class CalculatorApp {
         return (Math.sqrt(number));
     }
 
-
-
-    public static void main(String[] args) {
+    int calcMenu(){
 
         int choice;
         boolean valid;
@@ -74,11 +72,11 @@ public class CalculatorApp {
 
             scanIt.nextLine();
 
-        }while(valid);
+        }while(!valid);
+        return choice;
     }
 
-
-
-
-
+    public static void main(String[] args) {
+        
+    }
 }
