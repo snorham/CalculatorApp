@@ -19,7 +19,7 @@ public static double doubleChecker(){
             doubleScan.nextLine();
             System.out.println();
             System.out.println("[Error: Incorrect Entry]");
-            System.out.print("Please enter a number value: ");
+            System.out.print("Please enter a numeric value: ");
         }
     }while(true);
 }
@@ -54,7 +54,7 @@ public static double doubleChecker(){
         System.out.println("==SUPER CALCULATOR==");
         System.out.println();
         System.out.println("  1) Addition");
-        System.out.println("  2) Subtraction)");
+        System.out.println("  2) Subtraction");
         System.out.println("  3) Multiplication");
         System.out.println("  4) Division");
         System.out.println("  5) Square Root");
@@ -78,6 +78,7 @@ public static double doubleChecker(){
             }
 
             else {
+                System.out.println();
                 System.out.println("[Error: Incorrect Entry]");
                 System.out.print("Please enter a number (1-5) to make your choice: ");
                 valid = false;
@@ -107,28 +108,28 @@ public static double doubleChecker(){
                     System.out.println("The sum of " + num1 + " and " + num2 + " is " + addition(num1, num2));
                     break;
                 case 2:
-                    System.out.println("Please enter a numeric value: ");
+                    System.out.print("Please enter a numeric value: ");
                     num1 = doubleChecker();
                     System.out.print("Please enter a numeric value to subtract from the first value: ");
                     num2 = doubleChecker();
                     System.out.println("The difference of " + num1 + " and " + num2 + " is " + subtraction(num1, num2));
                     break;
                 case 3:
-                    System.out.println("Please enter a numeric value: ");
+                    System.out.print("Please enter a numeric value: ");
                     num1 = doubleChecker();
-                    System.out.println("Please enter a numeric value to multiply the first value by: ");
+                    System.out.print("Please enter a numeric value to multiply the first value by: ");
                     num2 = doubleChecker();
                     System.out.println("The product of " + num1 + " and " + num2 + " is " + multiplication(num1, num2));
                     break;
                 case 4:
-                    System.out.println("Please enter a numeric value: ");
+                    System.out.print("Please enter a numeric value: ");
                     num1 = doubleChecker();
-                    System.out.println("Please enter a numeric value to divide the first value by: ");
+                    System.out.print("Please enter a numeric value to divide the first value by: ");
                     num2 = doubleChecker();
                     System.out.println("The quotient of " + num1 + " and " + num2 + " is " + division(num1, num2));
                     break;
                 case 5:
-                    System.out.println("Please enter a numeric value: ");
+                    System.out.print("Please enter a numeric value: ");
                     num1 = doubleChecker();
                     System.out.println("The square root of " + num1 + " is " + squareRoot(num1));
                     break;
@@ -137,15 +138,14 @@ public static double doubleChecker(){
                     break;
             }
 
-            System.out.println();
-            System.out.println("Would you like to make another calculation?");
-            System.out.println();
-            System.out.println("1) Yes");
-            System.out.println("2) No");
-            System.out.println();
-            System.out.print("Please make your choice (1 or 2): ");
-
             do {
+                System.out.println();
+                System.out.println("Would you like to make another calculation?");
+                System.out.println();
+                System.out.println("1) Yes");
+                System.out.println("2) No");
+                System.out.println();
+                System.out.print("Please make your choice (1 or 2): ");
                 if (stayScan.hasNextInt()) {
                     stayChoice = stayScan.nextInt();
 
@@ -166,14 +166,21 @@ public static double doubleChecker(){
                         }
                         else {
                             stayScan.nextLine();
-                            System.out.println("");
-
-
+                            invalid = true;
+                            stay = true;
+                            System.out.println();
+                            System.out.println();
+                            System.out.println("[Error: Incorrect Entry]");
                         }
                     }
 
-                } else {
-
+                }
+                else {
+                    invalid = true;
+                    stay = true;
+                    stayScan.nextLine();
+                    System.out.println();
+                    System.out.println("[Error: Incorrect Entry]");
                 }
             }while(invalid);
         }while(stay);
